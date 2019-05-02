@@ -48,7 +48,6 @@ def handwritinglasstest():
     m_test = len(test_file_list)
     test_mat = np.zeros((m_test, 1024))
     error_num = 0
-    print(m_test)
     for i in range(m_test):
         test_file_name = test_file_list[i]
         test_file_str = test_file_name.split('.')[0]
